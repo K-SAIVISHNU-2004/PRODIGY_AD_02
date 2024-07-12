@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#addTaskForm {
+    margin-bottom: 20px;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+#taskList li:last-child {
+    border-bottom: none;
+}
+
+#taskList li .delete {
+    float: right;
+    cursor: pointer;
+}
